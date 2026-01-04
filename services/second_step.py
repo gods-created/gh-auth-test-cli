@@ -23,6 +23,8 @@ def second_step(url: str, login: str, password: str, response_url: str) -> bool:
             EC.url_to_be(response_url)
         )
 
+        driver.quit()
+        
         return True
 
     except WebDriverException as e:
