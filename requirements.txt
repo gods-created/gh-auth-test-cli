@@ -1,0 +1,8 @@
+selenium
+loguru
+aiohttp
+asyncio
+click
+beautifulsoup4
+python-dotenv
+faker
